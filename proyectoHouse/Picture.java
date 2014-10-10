@@ -71,6 +71,10 @@ public class Picture
         sun.slowMoveVertical(130);
         
     }
+    
+    public void sunReset(){
+        sun.moveVertical(-130);
+        }
     /**
      * Change this picture to black/white display
      */

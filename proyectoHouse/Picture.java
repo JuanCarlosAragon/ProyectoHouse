@@ -73,9 +73,17 @@ public class Picture
     }
     
     public void sunReset(){
+        
         sun.moveVertical(-130);
-        setColor();
+        floor.changeColor("green");
+        sun.changeColor("yellow");
+        roof.changeColor("green");
+        wall.changeColor("red");
+        window.changeColor("black");
         }
+    public void lightOn(){
+        window.changeColor("yellow");
+    }
     /**
      * Change this picture to black/white display
      */

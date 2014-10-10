@@ -87,6 +87,7 @@ public class Picture
             window.changeColor("white");
             roof.changeColor("black");
             sun.changeColor("black");
+            floor.changeColor("black");
         }
     }
 

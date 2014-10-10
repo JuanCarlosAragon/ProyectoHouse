@@ -69,11 +69,12 @@ public class Picture
 
     public void sunMove(){
         sun.slowMoveVertical(130);
-        
+        setBlackAndWhite();
     }
     
     public void sunReset(){
         sun.moveVertical(-130);
+        setColor();
         }
     /**
      * Change this picture to black/white display

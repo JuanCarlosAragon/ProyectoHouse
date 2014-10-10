@@ -64,8 +64,7 @@ public class Picture
         floor.moveVertical(150);
         floor.makeVisible();
        
-        
-        sun.slowMoveVertical(130);
+       
     }
 
     /**

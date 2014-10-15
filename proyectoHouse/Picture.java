@@ -86,12 +86,14 @@ public class Picture
         window.changeColor("yellow");
     }
     public void drawMan(){
+        if (sun != null)
+        {
         man = new Person();
         man.moveHorizontal(-200);
         man.moveVertical(50);
         man.makeVisible();
         man.slowMoveHorizontal(200);
-        
+    }
     }
     /**
      * Change this picture to black/white display

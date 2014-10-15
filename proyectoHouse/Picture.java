@@ -87,7 +87,10 @@ public class Picture
     }
     public void drawMan(){
         man = new Person();
+        man.moveHorizontal(-200);
+        man.moveVertical(50);
         man.makeVisible();
+        man.slowMoveHorizontal(200);
         
     }
     /**
